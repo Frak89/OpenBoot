@@ -1,0 +1,6 @@
+id=openboot-once
+name=OpenBoot One-Shot UI Launcher
+version=rev1
+versionCode=1
+author=Frak89/OpenBoot
+description=Launches OpenBoot UI once after reboot. DOES NOT disable Android framework or free system RAM.
