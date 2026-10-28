@@ -1,0 +1,23 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.ampy.openboot'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.ampy.openboot'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName 'rev1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
